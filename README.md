@@ -1,2 +1,2 @@
-# data-science-estadistica
-Repositorio enfocado en conceptos fundamentales de estadística descriptiva e inferencial para el área de Data Science.
+# Data Science - Estadistica Descriptiva y Estadística Inferencial
+Repositorio enfocado en conceptos fundamentales de estadística descriptiva e inferencial para el área de Data Science. Explora técnicas y ejemplos prácticos para analizar, visualizar y sacar conclusiones significativas a partir de datos. Contenido y ejercicios realizados en el marco del curso DS4B: https://datascience4business.com/
