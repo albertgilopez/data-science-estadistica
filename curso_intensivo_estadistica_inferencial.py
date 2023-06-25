@@ -202,7 +202,6 @@ print("**************************")
 print("TEOREMA DEL LÍMITE CENTRAL")
 print("**************************")
 
-
 # Es uno de los teoremas más importantes de la estadística.
 # Básicamente consiste en que se ha demostrado que si hacemos medias sobre muchas muestras aleatorias de una población, la distribución resultante de todas esas muestras se va a distribuir según una normal (da igual cual fuera forma de la distribución original en la población).
 
@@ -295,7 +294,6 @@ print(np.array(muestra).mean())
 print("***********************")
 print("INTERVALOS DE CONFIANZA")
 print("***********************")
-
 
 # MARGEN DE ERROR 
 
@@ -507,7 +505,7 @@ print("********")
 
 # Por ejemplo: Vamos a calcular el tamaño de muestra necesario si queremos hacer un análisis donde como mucho nos podamos desviar un 3% y con la certeza de que de 100 veces que lo hiciéramos en 95 nos saldrían conclusiones similares:
 
-#Vamos a crear una función que calcule el tamaño muestral en base a un NC (pasado como zetas) y un margen error (pasado en porcentaje)
+# Vamos a crear una función que calcule el tamaño muestral en base a un NC (pasado como zetas) y un margen error (pasado en porcentaje)
 
 def tamaño(z,me):
     tamaño = ((z**2) * (50*50)) / (me ** 2)
@@ -576,7 +574,7 @@ print("***********************")
 # 2. Tenemos una hipótesis nula que queremos contrastar
 # 3. Elegimos un Nivel de Confianza al cual queremos trabajar, que nos da un Alpha
 # 4. Según la prueba que estemos haciendo usaremos un estadístico u otro, que nos devolverá un Pvalor
-# 5. Si el Pvalor es menor que el Alpha entonces rechazamos la hipótesis nula, y por tanto aceptamos la alternativa
+# 5. Si el pvalor es menor que el alpha entonces rechazamos la hipótesis nula, y por tanto aceptamos la alternativa
 
 # En cuanto al estadístico del punto 4 es la parte más compleja, por lo que a nivel práctico y por simplificar, vamos a recoger los 4 principales escenarios que se nos van a presentar y el estadístico que debemos usar en cada caso:
 
